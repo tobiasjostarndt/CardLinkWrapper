@@ -28,7 +28,7 @@ var CardLink = /** @class */ (function (_super) {
     function CardLink() {
         return _super !== null && _super.apply(this, arguments) || this;
     }
-    CardLink.prototype.cardlink = function (arg0) { return core.cordova(this, "cardlink", {}, arguments); };
+    CardLink.prototype.establishWSS = function (arg0) { return core.cordova(this, "establishWSS", {}, arguments); };
     CardLink.ɵfac = i0__namespace.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0__namespace, type: CardLink, deps: null, target: i0__namespace.ɵɵFactoryTarget.Injectable });
     CardLink.ɵprov = i0__namespace.ɵɵngDeclareInjectable({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0__namespace, type: CardLink });
     CardLink.pluginName = "CardLink";
@@ -41,6 +41,6 @@ var CardLink = /** @class */ (function (_super) {
 }(core.AwesomeCordovaNativePlugin));
 i0__namespace.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0__namespace, type: CardLink, decorators: [{
             type: i0.Injectable
-        }], propDecorators: { cardlink: [] } });
+        }], propDecorators: { establishWSS: [] } });
 
 exports.CardLink = CardLink;
