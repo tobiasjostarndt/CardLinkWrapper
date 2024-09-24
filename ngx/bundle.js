@@ -29,7 +29,8 @@ var CardLink = /** @class */ (function (_super) {
         return _super !== null && _super.apply(this, arguments) || this;
     }
     CardLink.prototype.establishWSS = function (arg0) { return core.cordova(this, "establishWSS", {}, arguments); };
-    CardLink.prototype.isConnected = function () { return core.cordova(this, "isConnected", {}, arguments); };
+    CardLink.prototype.isConnectedWSS = function () { return core.cordova(this, "isConnectedWSS", {}, arguments); };
+    CardLink.prototype.sendRequestSMSCodeMessage = function () { return core.cordova(this, "sendRequestSMSCodeMessage", {}, arguments); };
     CardLink.ɵfac = i0__namespace.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0__namespace, type: CardLink, deps: null, target: i0__namespace.ɵɵFactoryTarget.Injectable });
     CardLink.ɵprov = i0__namespace.ɵɵngDeclareInjectable({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0__namespace, type: CardLink });
     CardLink.pluginName = "CardLink";
@@ -42,6 +43,6 @@ var CardLink = /** @class */ (function (_super) {
 }(core.AwesomeCordovaNativePlugin));
 i0__namespace.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0__namespace, type: CardLink, decorators: [{
             type: i0.Injectable
-        }], propDecorators: { establishWSS: [], isConnected: [] } });
+        }], propDecorators: { establishWSS: [], isConnectedWSS: [], sendRequestSMSCodeMessage: [] } });
 
 exports.CardLink = CardLink;
