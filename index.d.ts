@@ -7,6 +7,7 @@ export declare class CardLinkOriginal extends AwesomeCordovaNativePlugin {
     isSMSCodeCorrect(): Promise<any>;
     setCanNumber(arg0: string): Promise<any>;
     startReadCard(): Promise<any>;
+    isCardScanned(): Promise<any>;
 }
 
 export declare const CardLink: CardLinkOriginal;
