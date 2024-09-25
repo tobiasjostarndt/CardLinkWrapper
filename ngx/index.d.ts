@@ -5,4 +5,6 @@ export declare class CardLink extends AwesomeCordovaNativePlugin {
     sendRequestSMSCodeMessage(arg0: string): Promise<any>;
     verifyCode(arg0: string): Promise<any>;
     isSMSCodeCorrect(): Promise<any>;
+    setCanNumber(arg0: string): Promise<any>;
+    startReadCard(): Promise<any>;
 }
