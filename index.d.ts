@@ -8,6 +8,8 @@ export declare class CardLinkOriginal extends AwesomeCordovaNativePlugin {
     setCanNumber(arg0: string): Promise<any>;
     startReadCard(): Promise<any>;
     isCardScanned(): Promise<any>;
+    getERezeptTokensFromAVS(): Promise<any>;
+    getERezeptBundlesFromAVS(): Promise<any>;
 }
 
 export declare const CardLink: CardLinkOriginal;
