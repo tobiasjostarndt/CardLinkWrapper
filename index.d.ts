@@ -10,6 +10,7 @@ export declare class CardLinkOriginal extends AwesomeCordovaNativePlugin {
     isCardScanned(): Promise<any>;
     getERezeptTokensFromAVS(): Promise<any>;
     getERezeptBundlesFromAVS(): Promise<any>;
+    isError(): Promise<any>;
 }
 
 export declare const CardLink: CardLinkOriginal;

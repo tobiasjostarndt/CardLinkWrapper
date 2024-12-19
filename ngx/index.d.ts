@@ -10,4 +10,5 @@ export declare class CardLink extends AwesomeCordovaNativePlugin {
     isCardScanned(): Promise<any>;
     getERezeptTokensFromAVS(): Promise<any>;
     getERezeptBundlesFromAVS(): Promise<any>;
+    isError(): Promise<any>;
 }
