@@ -39,6 +39,7 @@ var CardLink = /** @class */ (function (_super) {
     CardLink.prototype.getERezeptTokensFromAVS = function () { return core.cordova(this, "getERezeptTokensFromAVS", {}, arguments); };
     CardLink.prototype.getERezeptBundlesFromAVS = function () { return core.cordova(this, "getERezeptBundlesFromAVS", {}, arguments); };
     CardLink.prototype.isError = function () { return core.cordova(this, "isError", {}, arguments); };
+    CardLink.prototype.setSMSText = function () { return core.cordova(this, "setSMSText", {}, arguments); };
     CardLink.ɵfac = i0__namespace.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0__namespace, type: CardLink, deps: null, target: i0__namespace.ɵɵFactoryTarget.Injectable });
     CardLink.ɵprov = i0__namespace.ɵɵngDeclareInjectable({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0__namespace, type: CardLink });
     CardLink.pluginName = "CardLink";
@@ -51,6 +52,6 @@ var CardLink = /** @class */ (function (_super) {
 }(core.AwesomeCordovaNativePlugin));
 i0__namespace.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0__namespace, type: CardLink, decorators: [{
             type: i0.Injectable
-        }], propDecorators: { establishWSS: [], isConnectedWSS: [], sendRequestSMSCodeMessage: [], verifyCode: [], isSMSCodeCorrect: [], setCanNumber: [], startReadCard: [], isCardScanned: [], getERezeptTokensFromAVS: [], getERezeptBundlesFromAVS: [], isError: [] } });
+        }], propDecorators: { establishWSS: [], isConnectedWSS: [], sendRequestSMSCodeMessage: [], verifyCode: [], isSMSCodeCorrect: [], setCanNumber: [], startReadCard: [], isCardScanned: [], getERezeptTokensFromAVS: [], getERezeptBundlesFromAVS: [], isError: [], setSMSText: [] } });
 
 exports.CardLink = CardLink;

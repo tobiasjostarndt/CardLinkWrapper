@@ -11,4 +11,5 @@ export declare class CardLink extends AwesomeCordovaNativePlugin {
     getERezeptTokensFromAVS(): Promise<any>;
     getERezeptBundlesFromAVS(): Promise<any>;
     isError(): Promise<any>;
+    setSMSText(): Promise<any>;
 }
